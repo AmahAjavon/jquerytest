@@ -22,11 +22,11 @@ function getRandom(){
       } else if(e % 3 === 0) {
 
         $div.text(e);
-        $('#threes').append($div);
+        $('#threes').append('<p>'+ e + '</p>');
       }
       else {
         $div.text(e);
-        $('#others').append($div);
+        $('#others').append('<p>'+ e + '</p>');
 
       }
     })
